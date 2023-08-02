@@ -4,11 +4,7 @@ import (
 	"time"
 )
 
-type LRUKeyType interface {
-	comparable
-}
-
-type Node[T any, K LRUKeyType] struct {
+type Node[T any, K comparable] struct {
 	key     K
 	value   T
 	created time.Time
@@ -17,13 +13,13 @@ type Node[T any, K LRUKeyType] struct {
 	next *Node[T, K]
 }
 
-type LRUCache[T any, K LRUKeyType] struct {
+type LRUCache[T any, K comparable] struct {
 	space      int
 	cache      map[K]*Node[T, K]
 	head, tail *Node[T, K]
 }
 
-func New[K LRUKeyType, T any](capacity, timeout int) LRUCache[T, K] {
+func New[K comparable, T any](capacity, timeout int) LRUCache[T, K] {
 	cache := map[K]*Node[T, K]{}
 	var zero T
 	var zeroKey K
