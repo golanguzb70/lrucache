@@ -14,7 +14,7 @@ go get github.com/golanguzb70/lrucache@latest
 
 # Projects that uses this package
 <a href="https://uzdplus.uz/">
-  <img src="https://github.com/golanguzb70/lrucache/blob/main/src/uzdplus.jpg" alt="Uzdigital" width="300" height="200">
+  <img src="https://github.com/golanguzb70/lrucache/blob/main/src/uzdplus.jpg" alt="Uzdigital" width="200" height="100">
 </a>
 
 
