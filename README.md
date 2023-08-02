@@ -43,6 +43,8 @@ if found {
     // ... handle the case ...
 }
 ```
+# Contributing
+Contributions to LRUCache are welcome! If you find any issues or have improvements in mind, please open an issue or submit a pull request on the GitHub repository. For more information about CONTRIBUTING refer to this [link](https://github.com/golanguzb70/lrucache/blob/main/CONTRIBUTING)
 
 # License
 GoCache is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License). See the [LICENSE](https://github.com/golanguzb70/lrucache/blob/main/LICENSE) file for more details.
