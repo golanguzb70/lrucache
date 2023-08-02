@@ -45,7 +45,7 @@ if found {
 ```
 
 # License
-GoCache is licensed under the MIT License. See the LICENSE file for more details.
+GoCache is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License). See the [LICENSE](https://github.com/golanguzb70/lrucache/blob/main/LICENSE) file for more details.
 
 #
 Thank you for using LRUCache! We hope this package proves useful in your Go projects. If you have any questions or need further assistance, feel free to reach out to us. Happy coding!
