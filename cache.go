@@ -8,7 +8,7 @@ type Node[T any, K comparable] struct {
 	key     K
 	value   T
 	created time.Time
-	timout  int // seconds
+	timeout  int // seconds
 	prev,
 	next *Node[T, K]
 }
