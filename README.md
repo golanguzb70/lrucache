@@ -12,6 +12,12 @@ go get github.com/golanguzb70/lrucache@latest
 * Generics Support: With Go 1.18 or later, this package utilizes the new generics feature to enable more flexible and type-safe cache usage. This allows you to store any type of data in the cache.
 * Timeout: The package also supports deleting data after specific number of seconds, which makes it easy to cache data that is frequently accessed and also updated instantly in database. Thanks to this feature, users always have updated data with amazing speed to get.
 
+# Projects that uses this package
+<a href="https://github.com/golanguzb70/lrucache/blob/main/src/uzdplus.jpg">
+  <img src="https://github.com/golanguzb70/lrucache/blob/main/src/uzdplus.jpg" alt="Uzdigital" width="300" height="200">
+</a>
+
+
 # Usage
 ## Import the package
 To start using LRUCache, import the package into your Go code:
