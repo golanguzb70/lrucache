@@ -2,16 +2,10 @@ package lrucache
 
 import (
 	"time"
-
-	"golang.org/x/exp/constraints"
 )
 
 type LRUKeyType interface {
 	comparable
-}
-
-type LRUValuType interface {
-	constraints.Ordered | ~[]int | ~[][]int | ~[]string | ~[][]string
 }
 
 type Node[T any, K LRUKeyType] struct {
