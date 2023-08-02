@@ -29,7 +29,7 @@ type LRUCache[T any, K LRUKeyType] struct {
 	head, tail *Node[T, K]
 }
 
-func Constructor[T any, K LRUKeyType](capacity, timeout int) LRUCache[T, K] {
+func New[K LRUKeyType, T any](capacity, timeout int) LRUCache[T, K] {
 	cache := map[K]*Node[T, K]{}
 	var zero T
 	var zeroKey K
