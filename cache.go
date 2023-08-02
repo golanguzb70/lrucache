@@ -45,12 +45,18 @@ func (lru *LRUCache[K, T]) RemoveNode(node *Node[T, K]) {
 }
 
 func (lru *LRUCache[K, T]) Get(key K) (T, bool) {
+	var res T
 	if node, ok := lru.cache[key]; ok {
+		if lru.timeout > 0 {
+			if node.created.After(time.Now().Add(time.Second * time.Duration(lru.timeout))) {
+				lru.RemoveNode(node)
+				return res, false
+			}
+		}
 		lru.RemoveNode(node)
 		lru.AddNode(node)
 		return node.value, true
 	} else {
-		var res T
 		return res, false
 	}
 }
