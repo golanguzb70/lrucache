@@ -71,7 +71,3 @@ func (lru *LRUCache[T, K]) Put(key K, value T) {
 		lru.cache[key] = newNode
 	}
 }
-
-func (lru *LRUCache[T, K]) All() map[K]*Node[T, K] {
-	return lru.cache
-}
