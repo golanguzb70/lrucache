@@ -13,6 +13,7 @@ go get github.com/golanguzb70/lrucache@latest
 * Timeout: The package also supports deleting data after specific number of seconds, which makes it easy to cache data that is frequently accessed and also updated instantly in database. Thanks to this feature, users always have updated data with amazing speed to get.
 
 # Projects that uses this package
+If you use this package, please, don't forget to give logo of your project or add here and create pull request.
 <a href="https://uzdplus.uz/">
   <img src="https://github.com/golanguzb70/lrucache/blob/main/src/uzdplus.jpg" alt="Uzdigital" width="200" height="100">
 </a>
