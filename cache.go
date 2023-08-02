@@ -50,6 +50,7 @@ func (lru *LRUCache[K, T]) Get(key K) (T, bool) {
 		if lru.timeout > 0 {
 			if node.created.Add(time.Second * time.Duration(lru.timeout)).Before(time.Now()) {
 				lru.RemoveNode(node)
+				lru.space++
 				return res, false
 			}
 		}
