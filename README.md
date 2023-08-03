@@ -15,9 +15,11 @@ go get github.com/golanguzb70/lrucache@latest
 # Projects that uses this package
 If you use this package, please, don't forget to give logo of your project or add here and create pull request.
 <a href="https://uzdplus.uz/">
-  <img src="https://github.com/golanguzb70/lrucache/blob/main/src/uzdplus.jpg" alt="Uzdigital" width="200" height="100">
+  <img src="https://github.com/golanguzb70/lrucache/blob/main/src/uzdplus.jpg" alt="UZD Plus" width="200" height="100">
 </a>
-
+<a href="https://uzdplus.uz/">
+  <img src="https://github.com/golanguzb70/lrucache/blob/main/src/milliontv.png" alt="Million Tv" width="200" height="100">
+</a>
 
 # Usage
 ## Import the package
