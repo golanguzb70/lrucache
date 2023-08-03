@@ -17,7 +17,7 @@ If you use this package, please, don't forget to give logo of your project or ad
 <a href="https://uzdplus.uz/">
   <img src="https://github.com/golanguzb70/lrucache/blob/main/src/uzdplus.jpg" alt="UZD Plus" width="200" height="100">
 </a>
-<a href="https://uzdplus.uz/">
+<a href="https://milliontv.uz/">
   <img src="https://github.com/golanguzb70/lrucache/blob/main/src/milliontv.png" alt="Million Tv" width="200" height="100">
 </a>
 
